@@ -34,7 +34,7 @@ do {
 while (i < 5);
     */
 
-		if ((typeof(a)) === "string" && (typeof(a)) != "null" && a != "" && a.length < 50){
+		if ((typeof(a)) === "string" && (typeof(a)) != null && a != "" && a.length < 50){
 				console.log('все верно');
 				mainList.shopGoods[i] = a; 
 	} else {
